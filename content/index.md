@@ -12,8 +12,8 @@ studerar ibland lite matematik då och då på universitet för att hålla intre
 levande.
 
 Nu läser jag programering med målet att kunna göra ett karriärbyte så att jag har lite mer frihet att
-kunna planera mina dagar själv än så länge jag har små barn. Enligt min förståelse och undersökning skulle
-jag kunna göra det som programerare. Jag är en sådan som pluggar paket det här är mitt andra kurspaket nu
+kunna planera mina dagar själv, än så länge jag har små barn. Enligt min förståelse och undersökning skulle
+jag kunna göra det som programerare. Jag är en sådan som pluggar paket det här är mitt andra kurspaket
 som jag läser på distans.
 
 ![text](%assets_url%/img/me.png){.figureIndex}
