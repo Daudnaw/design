@@ -1,29 +1,29 @@
 .footer {
-    display: flex;
-    justify-content: space-between;
-    border-top: 1px solid $black;
-    background-color: $footer-color;
-    border-top: 2px solid $border-color;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid $black;
+  background-color: $footer-color;
+  border-top: 2px solid $border-color;
 }
 
 .footer a {
-    color: $black;
+  color: $black;
 }
 
 .footer .social {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .social a { 
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .social {
-    margin-top: 0.2em;
-    margin-right: 1em;
+  margin-top: 0.2em;
+  margin-right: 1em;
 }
 
 .foot-text {
-    margin-top: 0.2em;
-    margin-left: 1em;
+  margin-top: 0.2em;
+  margin-left: 1em;
 }

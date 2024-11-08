@@ -1,27 +1,27 @@
 code {
-    margin: 0 0.1em;
-    padding: 0.1em 0.2em;
-    border: 1px solid $hex-gray;
-    border-radius: 0.3em;
-    background: $hex-white;
-    font-family: monospace;
-    font-size: 0.85rem;
-    line-height: 1.9824;
+  margin: 0 0.1em;
+  padding: 0.1em 0.2em;
+  border: 1px solid $hex-gray;
+  border-radius: 0.3em;
+  background: $hex-white;
+  font-family: monospace;
+  font-size: 0.85rem;
+  line-height: 1.9824;
 }
 
 pre {
-    padding: 0 1em;
-    border: 1px solid $hex-gray;
-    border-radius: 0.3em;
-    background: $hex-white;
+  padding: 0 1em;
+  border: 1px solid $hex-gray;
+  border-radius: 0.3em;
+  background: $hex-white;
 }
 
 pre code {
-    display: block;
-    margin: 0;
-    padding: 1.1111em 0;
-    border: 0 none;
-    background: transparent;
-    overflow-x: auto;
-    line-height: 1.4;
+  display: block;
+  margin: 0;
+  padding: 1.1111em 0;
+  border: 0 none;
+  background: transparent;
+  overflow-x: auto;
+  line-height: 1.4;
 }
