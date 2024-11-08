@@ -1,11 +1,10 @@
 ---
-Logo: image/eagl.png
-Tagline: Dauds portfolio.
+Logo: assets/img/eagl.png
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/Daudnaw/design
-      icon: github
+      icon: fab fa-github
     - title: Link till dbwebb design.
       url: https://dbwebb.se/kurser/design-v3
-      icon: leaf
+      icon: fa fa-leaf
 ---

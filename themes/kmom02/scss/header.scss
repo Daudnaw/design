@@ -1,0 +1,45 @@
+.header, .footer {
+    flex: 0 0 auto;
+}
+
+/* Header */
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $header-color;
+}
+
+.header {
+    height: 25%;
+    border-bottom: 5px solid $border-color;
+}
+/* Title */
+
+.title, .logo {
+    padding: 2em 2em 2em 0;
+}
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+    .title {
+        min-width: 50%;
+    }
+    .logo {
+        max-width: 30%;
+    }
+}
+
+.title * {
+    color: $black;
+}
+
+.title p {
+    font-style: italic;
+}
+
+.site-header a {
+    text-decoration: none;
+}

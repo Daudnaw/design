@@ -1,5 +1,5 @@
 ---
-Title: Home
+Title: Daud Nawaz
 Description: This is our index page.
 ---
 
@@ -16,4 +16,4 @@ kunna planera mina dagar själv, än så länge jag har små barn. Enligt min f�
 jag kunna göra det som programerare. Jag är en sådan som pluggar paket det här är mitt andra kurspaket
 som jag läser på distans.
 
-![text](%assets_url%/img/me.png){.figureIndex}
+![me](%assets_url%/img/me.png){.small}
