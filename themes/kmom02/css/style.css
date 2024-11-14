@@ -330,7 +330,8 @@ pre {
   padding: 0 1em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: rgb(78, 76, 76);
+  color: rgb(0, 0, 0);
 }
 
 pre code {
@@ -520,39 +521,39 @@ body {
 }
 
 body {
-  font-size: 16px;
-  line-height: 1.4;
+  font-size: 14px; /* Reduced base font size */
+  line-height: 1.4; /* Maintain decent line height for readability */
 }
 
 p {
-  font-size: 1.25rem;
-  line-height: 1.6;
-  margin-bottom: 2rem;
+  font-size: 1rem; /* Reduced size */
+  line-height: 1.4; /* Reduced line height to match smaller text size */
+  margin-bottom: 1.5rem; /* Reduced space between paragraphs */
 }
 
 h1 {
-  font-size: 2.8rem;
-  line-height: 1.3;
-  margin-bottom: 2.8rem;
+  font-size: 2.4rem; /* Smaller heading size */
+  line-height: 1.3; /* Tighten the line-height for headings */
+  margin-bottom: 2rem; /* Reduced space after the heading */
 }
 
 h2 {
-  font-size: 2rem;
-  line-height: 1.4;
-  margin-bottom: 2.5rem;
+  font-size: 1.8rem; /* Smaller h2 size */
+  line-height: 1.4; /* Keep line-height consistent with other text */
+  margin-bottom: 1.8rem; /* Reduced space after h2 */
 }
 
 h3 {
-  font-size: 1.6rem;
+  font-size: 1.4rem; /* Smaller h3 size */
   line-height: 1.4;
-  margin-bottom: 2.2rem;
+  margin-bottom: 1.5rem;
 }
 
 h1,
 h2,
 h3 {
-  margin-top: 0;
-  margin-bottom: 1em;
+  margin-top: 0; /* No top margin */
+  margin-bottom: 1rem; /* Standard bottom margin */
 }
 
 h1,
@@ -567,24 +568,24 @@ h6 {
 table {
   width: 100%;
   border-collapse: collapse;
-  margin-bottom: 2rem;
-  border: 2px solid rgb(0, 0, 0);
+  margin-bottom: 1.5rem; /* Reduced space below the table */
+  border: 1px solid rgb(0, 0, 0); /* Darker, thinner border */
 }
 
 th {
   text-align: left;
   font-weight: bold;
-  padding: 1rem;
-  background-color: #f0f0f0;
-  line-height: 1.6;
-  border: 2px solid rgb(0, 0, 0);
+  padding: 0.8rem; /* Reduced padding */
+  background-color: #ccc;
+  line-height: 1.4; /* Keep line height consistent */
+  border: 1px solid rgb(0, 0, 0); /* Thinner border */
 }
 
 td {
-  padding: 1rem;
-  line-height: 1.6;
+  padding: 0.8rem; /* Reduced padding */
+  line-height: 1.4; /* Consistent line height */
   vertical-align: top;
-  border: 2px solid rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0); /* Thinner border */
 }
 
 tr {
@@ -592,7 +593,7 @@ tr {
 }
 
 tr:nth-child(even) {
-  background-color: #ccc; /* Light background for even rows */
+  background-color: #ccc; /* Light gray for even rows */
 }
 
 /* technology.scss */
@@ -625,6 +626,14 @@ tr:nth-child(even) {
   align-content: center;
   padding-left: 1em;
   border: 2px solid #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.box a {
+  color: rgb(0, 0, 0);
 }
 
 .heading {
@@ -673,6 +682,52 @@ tr:nth-child(even) {
     grid-template-areas: "heading" "box1" "box2" "box3" "box4" "box5" "box6" "box7";
     grid-auto-rows: 200px;
     grid-auto-columns: minmax(200px, auto);
+  }
+}
+.wra {
+  max-width: 960px;
+  margin: 0 auto;
+  grid-template-columns: 200px auto;
+  grid-template-rows: 600px;
+  grid-gap: 75px;
+}
+
+.left {
+  grid-column: 1/2;
+  grid-row: 1/1;
+  border: 2px solid black;
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+.left a {
+  color: #000;
+}
+
+.right {
+  grid-column: 2/2;
+  grid-row: 1/1;
+  border: 2px solid black;
+  padding: 1em 0.4em 1em 1em;
+}
+
+.right pre {
+  background-color: #193c40;
+  color: #fff;
+}
+
+/* Media query to hide .left on mobile devices */
+@media screen and (max-width: 768px) {
+  .left {
+    display: none; /* Hide the left element on smaller screens */
+  }
+  .wra {
+    grid-template-columns: 1fr; /* Adjust grid to a single column */
+    grid-template-rows: auto; /* Adjust rows as necessary */
+    grid-gap: 20px; /* Adjust gap between items */
+  }
+  .right {
+    grid-column: 1/2; /* Make the right element take the full width */
   }
 }
 /*!

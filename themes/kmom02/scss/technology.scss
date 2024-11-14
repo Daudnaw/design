@@ -35,6 +35,14 @@
   align-content: center;
   padding-left: 1em;
   border: 2px solid $font-alternative-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.box a {
+  color: $black;
 }
 
 .heading {
@@ -56,7 +64,7 @@
 @media screen and (max-width: 960px) {
   .wrapper {
     grid-gap: 5px;
-    grid-template-columns: 1fr;  // Each box takes full width
+    grid-template-columns: 1fr;
     grid-template-areas: 
       'heading' 
       'box1' 

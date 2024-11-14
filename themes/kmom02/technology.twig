@@ -1,0 +1,30 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="grid-main" role="main">
+        <div class="grid wra">
+        
+            <!-- Left Sidebar: Display all blog links -->
+            <div class="left">
+                <h3>Technologies</h3>
+                {% for page in pages("technology")|sort_by("time")|reverse if not page.hidden %}
+                    <div class="post">
+                        <p><a href="{{ page.url }}">{{ page.title }}</a></p>
+                    </div>
+                {% endfor %}
+            </div>
+            
+            <!-- Right Section: Display content of the selected blog post -->
+            <div class="right">
+                <div class="content">{{ content }}</div>
+            </div>
+            
+        </div>
+    </div>
+
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

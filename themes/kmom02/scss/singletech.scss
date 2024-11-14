@@ -1,0 +1,48 @@
+.wra {
+  max-width: 960px;
+  margin: 0 auto;
+  grid-template-columns: 200px auto;
+  grid-template-rows: 600px;
+  grid-gap: 75px;
+}
+
+.left {
+  grid-column: 1/2;
+  grid-row: 1/1;
+  border: 2px solid $black;
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+.left a {
+  color: $font-color;
+}
+
+.right {
+  grid-column: 2/2;
+  grid-row: 1/1;
+  border: 2px solid $black;
+  padding: 1em 0.4em 1em 1em;
+}
+
+.right pre {
+  background-color: $border-color;
+  color: $font-alternative-color;
+}
+
+
+@media screen and (max-width: 768px) {
+  .left {
+    display: none;
+  }
+
+  .wra {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+  }
+
+  .right {
+    grid-column: 1 / 2;
+  }
+}
