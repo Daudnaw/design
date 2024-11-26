@@ -754,7 +754,7 @@ tr:nth-child(even) {
     grid-auto-columns: minmax(200px, auto);
   }
 }
-.image-grid {
+.gallery {
   --gap: 16px;
   --num-cols: 4;
   --row-height: 300px;
@@ -766,25 +766,25 @@ tr:nth-child(even) {
   gap: var(--gap);
 }
 
-.image-grid > a {
+.gallery > a {
   display: block;
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-.image-grid > a img {
+.gallery > a img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.image-grid > a:hover img {
+.gallery > a:hover img {
   filter: brightness(1.1);
 }
 
 @media screen and (max-width: 1024px) {
-  .image-grid {
+  .gallery {
     --num-cols: 1;
     --row-height: 200px;
   }
