@@ -16,14 +16,14 @@ Jag besökte några retauranger här i gävle för att se vilka färgpaletter de
 Metod
 -----------------------
 
-Det är två verktyg som jag har använt för att undersöka:  colorzilla och devtools. När det gäller colorzilla har jag använt den på två olika sätt. Jag har använt eyedropper för att kolla färgen på en specifik element och webpage color analyser. Webpage color analyser ger en färgpalett med alla färger som existerar på hemsidan vilket även inkluderar färger som förekommer i bilder osv. Därför först har använt verktyget och sedan valt bort färger som dyker upp endast i bilder eftersom analyset i den här rapporten ska handla om färgval för webbplatsen. Devtools har i stort sätt använts för att kolla typografiska detaljer om texten men även för att dubbel kontrollera visa färger som producerades av webpage color analyser. När det gäller brödtext var det enkelt att se den storleken genom att titta på body men för h1, h2 och h3 har jag underöskt divar som innehåller rubriker och därefter undersöt style och css.
+Det är två verktyg som jag har använt för att undersöka:  colorzilla och devtools. När det gäller colorzilla har jag använt den på två olika sätt. Jag har använt eyedropper för att kolla färgen på en specifik element och webpage color analyser. Webpage color analyser ger en färgpalett med alla färger som existerar på hemsidan vilket även inkluderar färger som förekommer i bilder osv. Därför först har jag använt verktyget och sedan valt bort färger som dyker upp endast i bilder eftersom analyset i den här rapporten ska handla om färgval för webbplatsen. Devtools har i stort sätt använts för att kolla typografiska detaljer om texten men även för att dubbel kontrollera visa färger som producerades av webpage color analyser. När det gäller brödtext var det enkelt att se den storleken genom att titta på body men för h1, h2 och h3 har jag underöskt divar som innehåller rubriker och därefter undersökt style och css.
 
 Resultat
 -----------------------
 
 ### Trädgår'n:
 
-Den har webbplatsen har en ljustema med ljusa färger och en backgrund med gula blommor som påminner om vår. Den här webbplatsen har en komplementär färgpalett med en blandning av kalla och varma färger. Bakgrund med gula blommor, bakgrund färg på main är vit som låter blommorna lysa genom med grå och blå text. Färgpaletten till webbsidan kan ses nedan: 
+Den har webbplatsen har en ljustema med ljusa färger och en backgrund med gula blommor som påminner om vår. Den här webbplatsen har en komplementär färgpalett med en blandning av kalla och varma färger. Body med gula blommor, bakgrundfärg på main är vit som låter blommorna lysa genom med grå och blå text. Färgpaletten till webbsidan kan ses nedan: 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #F3D57C">
@@ -35,7 +35,7 @@ Den har webbplatsen har en ljustema med ljusa färger och en backgrund med gula 
 </tr>
 </table>
 
-När det gäller typografi hade Trägår'n webbplats följande detaljer: brödtext = 16px-20px, h1 = saknas, h2 = 40px och h3 = 32px. Jag tror att webbplatsen försöker förmedla vår känslan med ljusa färger. Det rymmer även ihop med deras bildval. De flesta bilder har ljust i sig, även om det handlar om festligheter på nattetid kan man fortfarande se alla och det finns mycket ljus.
+När det gäller typografi hade Trägår'n webbplats följande detaljer: brödtext = 16px-20px, h1 = saknas, h2 = 40px och h3 = 32px. Jag tror att webbplatsen försöker förmedla vår känslan med ljusa färger. Det rymmer även ihop med deras bildval. De flesta bilder har ljust i sig, även om det handlar om festligheter på nattetid kan man fortfarande se alla och det finns mycket ljus. Jag upplever att jag vill gå ut och grilla när jag tittar på webbplatsen.
 
 ### LaMancha:
 
@@ -54,7 +54,7 @@ Den här webbplatsen innehåller flera färger om vi tittar på färgpalett här
 </tr>
 </table>
 
-När det gäller typografi hade LaMancha webbplats följande detaljer: brödtext = 11px, h1 = 42px, h2 = 23,1 och h3 saknas. Det här en restaurang som serverar amerikansk mat, mer korrekt tex mex-mat och webbsidan ger samma känsla som barer och resturanger ger i hollywood mer som en pubb. Varmt, mysigt och inte mycket ljus. 
+När det gäller typografi hade LaMancha webbplats följande detaljer: brödtext = 11px, h1 = 42px, h2 = 23,1 och h3 saknas. Det här är en restaurang som serverar amerikansk mat, mer korrekt tex mex-mat och webbsidan ger samma känsla som barer och resturanger ger i hollywood mer som en pubb. Varmt, mysigt och inte mycket ljus. 
 
 ### Vasaskolan:
 
@@ -73,7 +73,7 @@ När det gäller typografi hade vasaskolan webbplats följande detaljer: brödte
 
 Analys
 -----------------------
-Färg och typsnitt på webbplatsen har en stor betydelse har jag förstått. Jag har tidigare inte lagt märke till, jag har säkerligen upplevt den men inte tänkt på det. Trägår'n som vill skapa en känsla av vår, känner man verkligen att det är sommrig på webbplatsen med bilder på grill och blommor. Kontrastens betydelse har jag också förstått att användaren ska kunna läsa och därför är det viktigt att texten har en bra kontrast mot sin bakgrund så att det inte bli ansträngande. En sak som jag tyckte var märkligt att vasaskolan webbplats upplevdes mer slarvigt jämförelse med andra. Exempelvis där det behövdes en h2 eller h3 enligt mig har man använt p-element med större tjocklek och det skapar inte en trevlig känsla. Det stör på något sätt när man läser texten. Slutsatsen som kan dras är att färgval och typsnitt kan påverka användarens upplevelse och i slutändan förmodligen även besökare på webbplatsen.
+Färg och typsnitt på webbplatsen har en stor betydelse har jag förstått. Jag har tidigare inte lagt märke till, jag har säkerligen upplevt det men inte tänkt på det. Trägår'n som vill skapa en känsla av vår, känner man verkligen att det är sommrig på webbplatsen med bilder på grill och blommor. Kontrastens betydelse har jag också förstått att användaren ska kunna läsa och därför är det viktigt att texten har en bra kontrast mot sin bakgrund så att det inte bli ansträngande. En sak som jag tyckte var märkligt att vasaskolan webbplats upplevdes mer slarvigt jämförelse med andra. Exempelvis där det behövdes en h2 eller h3 enligt mig har man använt p-element med större tjocklek och det skapar inte en trevlig känsla. Det stör på något sätt när man läser texten. Slutsatsen som kan dras är att färgval och typsnitt kan påverka användarens upplevelse och i slutändan förmodligen även besökare på webbplatsen.
 
 Författaren
 -----------------------
