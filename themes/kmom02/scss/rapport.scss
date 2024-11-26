@@ -1,0 +1,26 @@
+/* technology.scss */
+  .rapport-wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: repeat(3, 150px);
+    grid-gap: 25px;
+    grid-template-areas:
+      'box1 box1 box1'
+      'box2 box2 box2'
+      'box3 box3 box3';
+  }
+
+  @media screen and (max-width: 960px) {
+    .rapport-wrapper {
+      grid-gap: 5px;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        'box1' 
+        'box2' 
+        'box3';
+      grid-auto-rows: 200px;
+      grid-auto-columns: minmax(200px, auto);
+    }
+  }
+  

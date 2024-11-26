@@ -19,7 +19,7 @@
   max-width: 960px;
   margin: 0 auto;
   grid-template-columns: 200px 200px 200px;
-  grid-template-rows: repeat(6, 150px);
+  grid-template-rows: repeat(5, 150px);
   grid-gap: 25px;
   grid-template-areas:
     'heading heading heading'
@@ -39,6 +39,11 @@
   flex-direction: column;
   justify-content: center;
   gap: 0.5rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.box:hover {
+  box-shadow: 0 10px 10px $header-color;  /* Shadow effect on hover */
 }
 
 .box a {

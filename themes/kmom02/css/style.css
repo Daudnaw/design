@@ -324,6 +324,7 @@ code {
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
+  color: rgb(0, 0, 0);
 }
 
 pre {
@@ -496,7 +497,7 @@ body {
   flex-direction: column;
   height: 100vh;
   margin: 0;
-  color: #000;
+  color: #fff;
 }
 
 .main {
@@ -521,30 +522,30 @@ body {
 }
 
 body {
-  font-size: 14px; /* Reduced base font size */
-  line-height: 1.4; /* Maintain decent line height for readability */
+  font-size: 14px;
+  line-height: 1.4;
 }
 
 p {
-  font-size: 1rem; /* Reduced size */
-  line-height: 1.4; /* Reduced line height to match smaller text size */
-  margin-bottom: 1.5rem; /* Reduced space between paragraphs */
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
 }
 
 h1 {
-  font-size: 2.4rem; /* Smaller heading size */
-  line-height: 1.3; /* Tighten the line-height for headings */
-  margin-bottom: 2rem; /* Reduced space after the heading */
+  font-size: 2.4rem;
+  line-height: 1.3;
+  margin-bottom: 2rem;
 }
 
 h2 {
-  font-size: 1.8rem; /* Smaller h2 size */
-  line-height: 1.4; /* Keep line-height consistent with other text */
-  margin-bottom: 1.8rem; /* Reduced space after h2 */
+  font-size: 1.8rem;
+  line-height: 1.4;
+  margin-bottom: 1.8rem;
 }
 
 h3 {
-  font-size: 1.4rem; /* Smaller h3 size */
+  font-size: 1.4rem;
   line-height: 1.4;
   margin-bottom: 1.5rem;
 }
@@ -552,8 +553,8 @@ h3 {
 h1,
 h2,
 h3 {
-  margin-top: 0; /* No top margin */
-  margin-bottom: 1rem; /* Standard bottom margin */
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 h1,
@@ -568,24 +569,24 @@ h6 {
 table {
   width: 100%;
   border-collapse: collapse;
-  margin-bottom: 1.5rem; /* Reduced space below the table */
-  border: 1px solid rgb(0, 0, 0); /* Darker, thinner border */
+  margin-bottom: 1.5rem;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 th {
   text-align: left;
   font-weight: bold;
-  padding: 0.8rem; /* Reduced padding */
+  padding: 0.8rem;
   background-color: #ccc;
-  line-height: 1.4; /* Keep line height consistent */
-  border: 1px solid rgb(0, 0, 0); /* Thinner border */
+  line-height: 1.4;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 td {
-  padding: 0.8rem; /* Reduced padding */
-  line-height: 1.4; /* Consistent line height */
+  padding: 0.8rem;
+  line-height: 1.4;
   vertical-align: top;
-  border: 1px solid rgb(0, 0, 0); /* Thinner border */
+  border: 1px solid rgb(0, 0, 0);
 }
 
 tr {
@@ -593,7 +594,7 @@ tr {
 }
 
 tr:nth-child(even) {
-  background-color: #ccc; /* Light gray for even rows */
+  background-color: #ccc;
 }
 
 /* technology.scss */
@@ -616,7 +617,7 @@ tr:nth-child(even) {
   max-width: 960px;
   margin: 0 auto;
   grid-template-columns: 200px 200px 200px;
-  grid-template-rows: repeat(6, 150px);
+  grid-template-rows: repeat(5, 150px);
   grid-gap: 25px;
   grid-template-areas: "heading heading heading" "box1 box2 box2" "box3 box3 box4" "box5 box5 box5" "box6 box7 box7";
 }
@@ -630,6 +631,11 @@ tr:nth-child(even) {
   flex-direction: column;
   justify-content: center;
   gap: 0.5rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.box:hover {
+  box-shadow: 0 10px 10px #d96941; /* Shadow effect on hover */
 }
 
 .box a {
@@ -695,7 +701,7 @@ tr:nth-child(even) {
 .left {
   grid-column: 1/2;
   grid-row: 1/1;
-  border: 2px solid black;
+  border: 2px solid rgb(0, 0, 0);
   padding-left: 1em;
   padding-top: 1em;
 }
@@ -707,7 +713,7 @@ tr:nth-child(even) {
 .right {
   grid-column: 2/2;
   grid-row: 1/1;
-  border: 2px solid black;
+  border: 2px solid rgb(0, 0, 0);
   padding: 1em 0.4em 1em 1em;
 }
 
@@ -716,20 +722,92 @@ tr:nth-child(even) {
   color: #fff;
 }
 
-/* Media query to hide .left on mobile devices */
 @media screen and (max-width: 768px) {
   .left {
-    display: none; /* Hide the left element on smaller screens */
+    display: none;
   }
   .wra {
-    grid-template-columns: 1fr; /* Adjust grid to a single column */
-    grid-template-rows: auto; /* Adjust rows as necessary */
-    grid-gap: 20px; /* Adjust gap between items */
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
   }
   .right {
-    grid-column: 1/2; /* Make the right element take the full width */
+    grid-column: 1/2;
   }
 }
+/* technology.scss */
+.rapport-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: repeat(3, 150px);
+  grid-gap: 25px;
+  grid-template-areas: "box1 box1 box1" "box2 box2 box2" "box3 box3 box3";
+}
+
+@media screen and (max-width: 960px) {
+  .rapport-wrapper {
+    grid-gap: 5px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "box1" "box2" "box3";
+    grid-auto-rows: 200px;
+    grid-auto-columns: minmax(200px, auto);
+  }
+}
+.image-grid {
+  --gap: 16px;
+  --num-cols: 4;
+  --row-height: 300px;
+  box-sizing: border-box;
+  padding: var(--gap);
+  display: grid;
+  grid-template-columns: repeat(var(--num-cols), 1fr);
+  grid-auto-rows: var(--row-height);
+  gap: var(--gap);
+}
+
+.image-grid > a {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.image-grid > a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-grid > a:hover img {
+  filter: brightness(1.1);
+}
+
+@media screen and (max-width: 1024px) {
+  .image-grid {
+    --num-cols: 1;
+    --row-height: 200px;
+  }
+}
+.embed-container {
+  position: relative;
+  padding-top: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
