@@ -1,5 +1,5 @@
 ---
-Logo: assets/img/eagl.png
+Logo: image/eagl.png
 Social:
   - title: Link till sidans github repo.
     url: https://github.com/Daudnaw/design
