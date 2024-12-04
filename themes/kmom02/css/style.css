@@ -366,7 +366,7 @@ pre code {
 
 .nav a,
 .nav-toggle {
-  color: rgb(0, 0, 0);
+  color: black;
 }
 
 .nav-toggle {
@@ -429,7 +429,7 @@ pre code {
 .foot-text {
   margin-top: 0.2em;
   margin-left: 1em;
-  color: rgb(0, 0, 0);
+  color: black;
 }
 
 .header,
@@ -469,7 +469,7 @@ pre code {
   }
 }
 .title * {
-  color: rgb(0, 0, 0);
+  color: black;
 }
 
 .title p {
@@ -518,7 +518,7 @@ body {
   width: 90%;
   border-radius: 10px;
   mask-image: radial-gradient(circle, rgb(0, 0, 0) 40%, rgba(0, 0, 0, 0) 100%);
-  -webkit-mask-image: radial-gradient(circle, rgb(0, 0, 0) 40%, rgba(0, 0, 0, 0) 100%);
+  mask-image: radial-gradient(circle, rgb(0, 0, 0) 40%, rgba(0, 0, 0, 0) 100%);
 }
 
 .hidden {
@@ -641,7 +641,7 @@ tr:nth-child(even) {
 .box:hover {
   transform: scale(1.02);
   background-color: #d96941;
-  box-shadow: 0px 20px 60px rgba(255, 255, 255, 0.2); /* Shadow effect on hover */
+  box-shadow: 0 20px 60px rgba(255, 255, 255, 0.2); /* Shadow effect on hover */
 }
 
 .box a {
