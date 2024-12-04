@@ -89,5 +89,5 @@ Description: gallery
 </div>
 
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/239u8Wtv4BQ" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/239u8Wtv4BQ" frameborder="0" allowfullscreen title="YouTube Video"></iframe>
 </div>

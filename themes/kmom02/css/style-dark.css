@@ -366,7 +366,7 @@ pre code {
 
 .nav a,
 .nav-toggle {
-  color: rgb(78, 76, 76);
+  color: rgb(0, 0, 0);
 }
 
 .nav-toggle {
@@ -406,7 +406,7 @@ pre code {
   justify-content: space-between;
   border-top: 1px solid rgb(0, 0, 0);
   background-color: #1e272e;
-  border-top: 2px solid #485460;
+  border-top: 5px solid #485460;
 }
 
 .footer a {
@@ -429,6 +429,7 @@ pre code {
 .foot-text {
   margin-top: 0.2em;
   margin-left: 1em;
+  color: rgb(0, 0, 0);
 }
 
 .header,
@@ -514,7 +515,10 @@ body {
 
 .small {
   margin: 1.8rem;
-  width: 80%;
+  width: 90%;
+  border-radius: 10px;
+  mask-image: radial-gradient(circle, rgb(0, 0, 0) 40%, rgba(0, 0, 0, 0) 100%);
+  -webkit-mask-image: radial-gradient(circle, rgb(0, 0, 0) 40%, rgba(0, 0, 0, 0) 100%);
 }
 
 .hidden {
@@ -616,8 +620,8 @@ tr:nth-child(even) {
 .wrapper {
   max-width: 960px;
   margin: 0 auto;
-  grid-template-columns: 200px 200px 200px;
-  grid-template-rows: repeat(5, 150px);
+  grid-template-columns: 280px 280px 280px;
+  grid-template-rows: repeat(5, 160px);
   grid-gap: 25px;
   grid-template-areas: "heading heading heading" "box1 box2 box2" "box3 box3 box4" "box5 box5 box5" "box6 box7 box7";
 }
@@ -635,11 +639,13 @@ tr:nth-child(even) {
 }
 
 .box:hover {
-  box-shadow: 0 10px 10px #1e272e; /* Shadow effect on hover */
+  transform: scale(1.02);
+  background-color: #1e272e;
+  box-shadow: 0px 20px 60px rgba(255, 255, 255, 0.2); /* Shadow effect on hover */
 }
 
 .box a {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 0);
 }
 
 .heading {
@@ -739,8 +745,8 @@ tr:nth-child(even) {
 .rapport-wrapper {
   max-width: 960px;
   margin: 0 auto;
-  grid-template-columns: 200px 200px 200px;
-  grid-template-rows: repeat(3, 150px);
+  grid-template-columns: 280px 280px 280px;
+  grid-template-rows: repeat(3, 160px);
   grid-gap: 25px;
   grid-template-areas: "box1 box1 box1" "box2 box2 box2" "box3 box3 box3";
 }
@@ -781,6 +787,7 @@ tr:nth-child(even) {
 
 .gallery > a:hover img {
   filter: brightness(1.1);
+  transform: scale(1.09);
 }
 
 @media screen and (max-width: 1024px) {

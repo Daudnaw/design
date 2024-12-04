@@ -3,7 +3,7 @@
   justify-content: space-between;
   border-top: 1px solid $black;
   background-color: $footer-color;
-  border-top: 2px solid $border-color;
+  border-top: 5px solid $border-color;
 }
 
 .footer a {
@@ -26,4 +26,5 @@
 .foot-text {
   margin-top: 0.2em;
   margin-left: 1em;
+  color:$black;
 }

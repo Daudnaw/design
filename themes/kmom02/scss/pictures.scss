@@ -27,6 +27,7 @@
 
 .gallery > a:hover img {
   filter: brightness(1.1);
+  transform: scale(1.09);
 }
 
 @media screen and (max-width: 1024px) {
